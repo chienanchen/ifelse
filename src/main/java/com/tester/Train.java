@@ -5,7 +5,7 @@ public class Train {
     int round;
     int tot;
 
-    public Purchase(int num, int round) {
+    public Train(int num, int round) {
         this.num = num;
         this.round = round;
         this.tot= (num-round)*1000+(round*1800);
