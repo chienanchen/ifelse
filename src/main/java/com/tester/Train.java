@@ -3,17 +3,18 @@ package com.tester;
 public class Train {
     int num;
     int round;
-    int tot;
+    int total;
+
 
     public Train(int num, int round) {
         this.num = num;
         this.round = round;
-        this.tot= (num-round)*1000+(round*1800);
+
     }
     public void print(){
+        this.total= (num-round)*1000+(round*1800);
         System.out.println("Total ticker:"+num);
         System.out.println("Round trip:"+round);
-        System.out.println("Total:"+tot);
-
+        System.out.println("Total:"+total);
     }
 }
